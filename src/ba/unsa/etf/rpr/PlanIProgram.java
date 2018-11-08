@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class PlanIProgram {
 
-    ArrayList<Semestar> semestri;
-
+    private ArrayList<Semestar> semestri;
 
 
 }
