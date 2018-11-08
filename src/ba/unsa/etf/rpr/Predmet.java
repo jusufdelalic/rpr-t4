@@ -4,12 +4,10 @@ import java.util.ArrayList;
 
 public class Predmet {
 
-    public static enum vrstaPredmeta {OBAVEZAN, IZBORAN};
+    boolean obavezan;
     private String nazivPredmeta;
     private int IDPredmeta;
     private int maxBrojStudenata;
-    private int minBrojStudenata;
-    private ArrayList<Student> studentiNaPredmetu;
     private int brojStudenata;
     private int ECTS;
 
@@ -23,7 +21,7 @@ public class Predmet {
 
     public void ispisiSpisakStudenata() {}
 
-    public vrstaPredmeta tipPredmeta(){return vrstaPredmeta.OBAVEZAN;}
+
 
 
 }
