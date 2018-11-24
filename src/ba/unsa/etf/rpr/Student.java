@@ -38,7 +38,17 @@ public class Student {
 
     }
 
+    public void ispisiPodatke() {
 
+    System.out.println(ime + " " + prezime + " " + brojIndeksa);
+
+    }
+
+    boolean daLiPohadja(Fakultet fakultet) {
+
+        return fakultet.getStudenti().contains(this);
+
+    }
 
 
 }
